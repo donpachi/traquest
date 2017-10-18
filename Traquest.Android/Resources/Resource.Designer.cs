@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("AndroidTrackuest.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Traquest.Android.Resource", IsApplication=true)]
 
-namespace AndroidTrackuest
+namespace Traquest.Android
 {
 	
 	
@@ -60,17 +60,17 @@ namespace AndroidTrackuest
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050003
-			public const int button1 = 2131034115;
-			
-			// aapt resource value: 0x7f050000
-			public const int linearLayout1 = 2131034112;
-			
 			// aapt resource value: 0x7f050001
-			public const int requestTextView = 2131034113;
+			public const int button1 = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int button2 = 2131034115;
 			
 			// aapt resource value: 0x7f050002
-			public const int titleAutoComplete = 2131034114;
+			public const int button3 = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int main_content_linear_layout = 2131034112;
 			
 			static Id()
 			{
@@ -106,12 +106,6 @@ namespace AndroidTrackuest
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
-			
-			// aapt resource value: 0x7f040003
-			public const int RequestButtonLabel = 2130968579;
-			
-			// aapt resource value: 0x7f040002
-			public const int RequestNameLabel = 2130968578;
 			
 			static String()
 			{
