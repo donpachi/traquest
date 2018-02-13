@@ -23,6 +23,10 @@ namespace Traquest.Views
             var item = e.SelectedItem as ControlRootMenuItem;
             if (item == null)
                 return;
+            else if (item.Id == (int)ViewModels.RootMenuItemId.Exit)
+            {
+                //close network streams and stop sessions. set app to sleep
+            }
 
             var page = (Page)Activator.CreateInstance(item.TargetType);
             page.Title = item.Title;

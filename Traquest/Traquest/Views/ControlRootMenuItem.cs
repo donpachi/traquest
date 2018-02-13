@@ -11,7 +11,7 @@ namespace Traquest.Views
     {
         public ControlRootMenuItem()
         {
-            TargetType = typeof(ControlRootDetail);
+            TargetType = typeof(HomePage);
         }
         public int Id { get; set; }
         public string Title { get; set; }
